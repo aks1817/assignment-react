@@ -1,0 +1,233 @@
+/* ============Dahsboard_styles============ */
+
+.logo {
+  width: 4rem;
+  height: 4rem;
+  margin: 1rem;
+}
+
+.logo-white {
+  width: 8rem;
+  height: 8rem;
+  margin: 1rem;
+}
+
+.dashb__container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  column-gap: 3rem;
+  background-color: var(--color-off-white);
+}
+
+/* ---------SideBar-Styles--------- */
+.sidebar__container {
+  width: 80%;
+  max-width: 280px;
+  height: 880px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.sidebar__container .board__logo {
+  margin: 4rem 0 6rem;
+  color: var(--color-black);
+  font-size: var(--fs-xxl);
+  display: flex;
+  align-items: center;
+}
+
+.nav__links {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4rem;
+}
+
+.nav__links li a {
+  color: var(--color-grey);
+  font-family: var(--ff-mont);
+  font-size: var(--fs-l);
+  letter-spacing: 1px;
+}
+
+.nav__links li a.active {
+  font-weight: 700;
+  color: var(--color-blue);
+}
+
+.nav__links li a i {
+  margin-right: 20px;
+}
+
+/* ---------DashBoard-Header-Styles--------- */
+.main__dashboard__container {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-light-grey);
+}
+
+.dash__header__bar {
+  height: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem;
+}
+
+.dahsboard {
+  font-family: var(--ff-mont);
+  font-weight: 700;
+  font-size: var(--fs-l);
+}
+
+.header__right {
+  display: flex;
+  column-gap: 1.5rem;
+}
+
+.bell__icon {
+  background-color: transparent;
+  border: none;
+  font-size: var(--fs-m);
+  font-weight: 500;
+}
+
+.profile__icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+}
+
+.profile__icon img {
+  border-radius: 31px;
+}
+
+.profile__icon img,
+.dash__header {
+  display: flex;
+  column-gap: 10px;
+}
+
+/* ---------File-Upload-Styles--------- */
+.file_upload__container {
+  width: 100%;
+  padding: 1rem;
+  margin: 10rem 0;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.upload__btn {
+  padding: 10px 12px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  font-family: var(--ff-mont);
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  cursor: pointer;
+  height: 56px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.file_upload__container_inner {
+  width: 596px;
+  background-color: var(--color-off-white);
+  border-radius: 8px;
+  padding: 16px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+
+.file_upload__container__inner__subcontainer {
+  border: 1px dotted #ebebeb;
+  height: 367px;
+  border-radius: 8px;
+  padding: 8px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.upload_text {
+  padding: 8px;
+  font-size: 16px;
+  font-weight: 400px;
+  color: #999ca0;
+}
+
+.remove_text {
+  padding: 8px;
+  font-size: 16px;
+  font-weight: 400px;
+  color: #999ca0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---------Table-Styles--------- */
+
+.table_container {
+  overflow-y: auto;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  max-height: 500px;
+}
+.table_inner_container {
+  width: 90%;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #e1e1e1;
+  padding: 16px;
+  border-spacing: 0 1rem;
+}
+.table_row {
+  font-size: 14px;
+  height: 58px;
+  background-color: #fff;
+  padding: 10px;
+}
+.last_col {
+  font-size: 14px;
+  height: 58px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: #fff;
+  overflow-x: auto;
+  width: 200px;
+  max-width: 200px;
+  text-align: left;
+}
+.upload_header_text {
+  align-self: flex-start;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 36px;
+}
+
+.chip {
+  padding: 4px;
+  border-radius: 4px;
+  height: 24px;
+  background-color: #605bff;
+  margin-inline: 4px;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 10px;
+}
