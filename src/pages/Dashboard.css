@@ -22,9 +22,7 @@
 
 /* ---------SideBar-Styles--------- */
 .sidebar__container {
-  width: 80%;
-  max-width: 280px;
-  height: 880px;
+  width: 30rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -69,7 +67,7 @@
 }
 
 .dash__header__bar {
-  height: 32px;
+  height: 10rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -135,13 +133,13 @@
   background-color: var(--color-blue);
   color: var(--color-white);
   cursor: pointer;
-  height: 56px;
+  height: 6rem;
   font-size: 14px;
   font-weight: 600;
 }
 
 .file_upload__container_inner {
-  width: 596px;
+  width: 60%;
   background-color: var(--color-off-white);
   border-radius: 8px;
   padding: 16px;
@@ -152,7 +150,7 @@
 
 .file_upload__container__inner__subcontainer {
   border: 1px dotted #ebebeb;
-  height: 367px;
+  height: 40rem;
   border-radius: 8px;
   padding: 8px;
   margin-bottom: 20px;

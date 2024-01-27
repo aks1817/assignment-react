@@ -75,6 +75,10 @@ const Table = ({ dataArray }) => {
                           </option>
                         ))}
                       </select>
+                    ) : cellIndex === 1 ? (
+                      <a href={cell} target="_blank" rel="noopener noreferrer">
+                        {cell}
+                      </a>
                     ) : (
                       cell
                     )}
